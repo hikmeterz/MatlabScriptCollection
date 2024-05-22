@@ -1,0 +1,11 @@
+function [A] = soru2(n, k)
+    A=-1*k + (k-(-k))*rand(n,n);%A = -k ve k araliginda nxn lik random matris.
+    for i=1:n
+        A(i,i)=0;
+        A(:,i)=-1*A();%1,4 1. columnu yazdiriyor.
+        
+    end
+    
+    
+
+end
